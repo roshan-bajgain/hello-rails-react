@@ -1,24 +1,106 @@
-# README
+![](https://img.shields.io/badge/thecodechaser-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello Rails React App
 
-Things you may want to cover:
+> Hello Rails React app is simple application that contains setup of rails and react in one application. The greeting page loads a random greeting from database on every page load.
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Major languages (Ruby)
+- Framworks (Ruby on Rails)
+- Javascript (ReactJS)
+- Markup (HTML)
+- Styles (CSS, Tailwind)
 
-* Configuration
+## Getting Started
 
-* Database creation
+To get a local copy up and running follow these simple example steps.
 
-* Database initialization
+### Prerequisites
+- A text editor(preferably Visual Studio Code)
 
-* How to run the test suite
+### Install
+- Ruby
+- Ruby on Rails
+- PostgresSQL
+- Node
 
-* Services (job queues, cache servers, search engines, etc.)
+### Using it Locally
 
-* Deployment instructions
+- Clone the project
 
-* ...
+```
+git@github.com:roshan-bajgain/hello-rails-react.git
+
+cd hello-world
+
+```
+
+### Setup
+
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+Install dependencies
+
+```
+npm i 
+or
+npm install
+```
+
+### Usage
+
+Start server with:
+
+```
+rails server
+```
+
+Visit http://localhost:3000/ in your browser.
+
+### Open API documentation
+
+```
+Coming soon!
+```
+
+
+
+## Authors 1
+
+👤 **Roshan Bajgain**
+
+- GitHub: [@roshan-bajgain](https://github.com/roshan-bajgain)
+- Twitter: [@RoshanBajgain10](https://twitter.com/RoshanBajgain10)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/roshan-bazgain/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/roshan-bajgain/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspiration: Microverse
+
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
+
